@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silver Bullet-关于我</title>
+    <link href="../static/images/me.jpg" th:href="@{/images/me.jpg}" rel="icon" type="image/x-ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
+</head>
+<body>
+
+<!--导航-->
+<nav class="gird-header">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui olive header item" style="font-family: STSong">Silver Bullet</h2>
+            <!--<div class="right m-item item m-mobile-hide">-->
+                <a href="../templates/index.html" target="_blank" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+                <a href="../templates/types.html" target="_blank" class="m-item item m-mobile-hide"><i class="clone outline icon"></i>分类</a>
+                <a href="../templates/archives.html" target="_blank" class="m-item item m-mobile-hide"><i class="clock icon"></i>时间轴</a>
+                <a href="../templates/music.html" class="m-item item m-mobile-hide"><i class="music icon"></i>音乐盒</a>
+                <a href="../templates/message.html" target="_blank" class="m-item item m-mobile-hide"><i class="book icon"></i>留言板</a>
+                <a href="../templates/picture.html" target="_blank" class="m-item item m-mobile-hide"><i class="image icon"></i>照片墙</a>
+                <a href="../templates/about.html" target="_blank" class="active m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+			 <a href="../templates/her.html" target="_blank" class="m-item item m-mobile-hide"><img src=../templates/her.png >Her</a>
+            <!--</div>-->
+            <div class="right m-item item m-mobile-hide">
+                <form name="search" action="action="https://www.baidu.com/" " method="post" target="_blank">
+                    <div class="ui icon transparent input m-margin-tb-tiny" style="color: white">
+                        <input style="color: white" type="text" name="query" placeholder="Search....">
+						<a href="../templates/search.html" target="_blank" class="m-item item m-mobile-hide"  ><i  class="search link icon"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+
+<!--顶部背景图片-->
+<div class="m-bg-type_outer" style="width: 100%;height: 40%">
+    <img src="../static/images/aboutbg.jpg" th:src="@{/images/aboutbg.jpg}" alt="" class="ui m-bg image" style="width: 100%;height: 100%">
+    <div class="m-bg-class_cover">
+        <div class="ui container" style="position: relative ;bottom: -540px;">
+            <div class="m-font-size-title" align="center" style="font-family:'STXingkai'">关于我</div>
+            <div class="m-font-size-text-init-title m-margin-top" align="center">头一次活这么久，记得善待自己</div>
+        </div>
+    </div>
+</div>
+
+<!--个人资料描述-->
+<div class="ui container m-opacity box-shadow-max">
+    <div class="ui segment m-margin-" align="center">
+        <div class="m-margin-top-large" align="center">
+            <img class="ui circular image" align="center" src="../static/images/me.jpg" th:src="@{/images/me.jpg}" style="width: 150px;height: 150px;">
+        </div>
+    <div class="m-margin-top-small" style="font-size: x-large;font-family: STSong" align="center">Siver Bullet</div>
+
+    <div class="m-margin-top" align="center"> <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
+        <a href="#" class="ui qq circular icon button" data-content="316392836" data-position="bottom center"><i class="qq icon"></i></a>
+        <a href="https://github.com/GP-Bullet" target="_blank" class="ui github circular icon button" data-content="点击跳转GitHub" data-position="bottom center"><i class="github icon"></i></a>
+        <a href="https://blog.csdn.net/weixin_61631200?spm=1000.2115.3001.5343" target="_blank" class="ui csdn circular icon button" data-content="点击跳转CSDN" data-position="bottom center"><i class="copyright outline icon"></i></a>
+    </div>
+
+
+    <div class="ui wechat-qr flowing popup transition hidden">
+        <img src="../static/images/myWechat.jpg" th:src="@{/images/myWechat.jpg}" alt="" class="ui rounded image" style="width: 110px">
+        <div align="center">微信</div>
+    </div>
+    <div class="ui qq-qr flowing popup transition hidden">
+        <img src="../static/images/qq.jpg" th:src="@{/images/qq.jpg}" alt="" class="ui rounded image" style="width: 110px">
+        <div align="center">QQ</div>
+    </div>
+        <hr class="m-margin-top-small" style="width: 30%">
+        <br>
+        <div>
+            <p>男，4月14日（白羊座）&nbsp;</p>
+            <p>西安邮电大学&nbsp;</p>
+            <p>陕西西安，来自河北石家庄&nbsp;</p>
+            <br>
+            <p>&nbsp;</p>
+            <p>学习经历&nbsp;</p>
+            <p>&nbsp;高中：河北正定中学</p>
+            <p>&nbsp;现：西安邮电大学</p>
+            <p>Xiyou LInux Group&nbsp;</p>
+            <p>目前对LInux、服务器、算法感兴趣&nbsp;</p>
+            <p>计算机小白 ，不断学习ing</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;My Interests</p>
+            <p>&nbsp;听各种音乐、哼哼歌</p>
+            <p>跑跑步、散散心</p>
+          <p>&nbsp;刷B站</p>
+            <p>&nbsp;看LPL比赛，CFHD上号</p>
+<p>&nbsp;Talk is cheap</p>
+            <p>show me the code</p>
+        </div>
+        <hr class="m-margin-top-large">
+        <br>
+<!--<div class="hiddenDiv"></div>-->
+    </div>
+</div>
+
+  <br>
+  <br>
+
+  <!--底部栏-->
+<footer class="ui inverted vertical segment m-padded-tb-massive m-opacity">
+    <!--容器-->
+    
+    </div>
+
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+  <script>
+      // $('#newblog-container').load(/*[[@{/footer/newblog}]]*/"/footer/newblog");
+
+
+    $('.menu.toggle').click(function () {
+      $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+
+
+    // 显示微信
+    $('.wechat').popup({
+        popup : $('.wechat-qr'),
+        position: 'bottom center'
+    });
+
+    // 显示QQ
+    $('.qq').popup({
+        popup : $('.qq-qr'),
+        position: 'bottom center'
+    });
+
+
+    // 显示CSDN
+    $('.csdn').popup();
+
+      // 显示github
+      $('.github').popup();
+
+
+
+
+
+</body>
+</html>
