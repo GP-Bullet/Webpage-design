@@ -50,7 +50,20 @@ animation-delay: var(--animation-delay);
 }
 @keyframes rotY {
     to{
+        
+        
+        
         transform: rotateY(360deg);
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
